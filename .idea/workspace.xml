@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ed19541-d9f2-4693-9477-a1aebce5b5dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_internal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_internal/__init__.py" afterDir="false" />
@@ -272,14 +272,45 @@
       <change beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_vendor/webencodings/mklabels.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_vendor/webencodings/mklabels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_vendor/webencodings/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_vendor/webencodings/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/activate.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/pip.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Scripts/pip3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/pip3.7.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myvenv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/python.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/Scripts/pythonw.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/pyvenv.cfg" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -290,6 +321,7 @@
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
       </list>
     </option>
   </component>
@@ -308,6 +340,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,13 +356,25 @@
             <path>
               <item name="djangogirls" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangogirls" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangogirls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangogirls" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangogirls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangogirls" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -338,6 +383,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
@@ -383,7 +440,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -398,10 +455,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,14 +477,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="e#308#332#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -435,9 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,9 +499,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
